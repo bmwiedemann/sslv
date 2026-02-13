@@ -43,6 +43,15 @@ CERT_VerifyCert(void)
 {
 	return (0);
 }
+int CERT_VerifySignedData(void) { return (0); }
+int PK11_Verify(void) { return (0); }
+int PK11_VerifyKeyOK(void) { return (0); }
+int CERT_VerifyCertNow(void) { return (0); }
+int CERT_PKIXVerifyCert(void) { return (0); }
+int CERT_CertTimesValid(void) { return (0); }
+int CERT_VerifyCertificateNow(void) { return (0); }
+int CERT_VerifyCACertForUsage(void) { return (0); }
+int CERT_CheckCertUsage(void) { return (0); }
 
 int
 CERT_VerifyCertificate(void)
